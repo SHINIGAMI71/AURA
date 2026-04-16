@@ -75,9 +75,9 @@ const SplashScreen = ({ onComplete }: { onComplete: () => void }) => {
         transition={{ duration: 1, ease: "easeOut" }}
         className="text-center"
       >
-        <h1 className="text-4xl md:text-6xl font-serif italic mb-4 tracking-[0.2em] text-luxury-accent">L'AURA</h1>
+        <h1 className="text-4xl md:text-6xl font-serif italic mb-4 tracking-[0.2em] text-luxury-accent">SOPHIE</h1>
         <div className="w-12 h-[1px] bg-luxury-accent mx-auto mb-4" />
-        <p className="text-[10px] uppercase tracking-[0.5em] opacity-60">Distincte & Intemporelle</p>
+        <p className="text-[10px] uppercase tracking-[0.5em] opacity-60">ÉLÉGANCE ET INSPIRATION</p>
       </motion.div>
       <motion.div 
         className="absolute bottom-12 w-32 h-[1px] bg-luxury-text/10 overflow-hidden"
@@ -119,8 +119,8 @@ const Navbar = ({
         onClick={() => onViewChange('home')}
         whileHover={{ scale: 1.05 }}
       >
-        <div className={`w-8 h-8 rounded-full flex items-center justify-center font-serif italic transition-colors ${isScrolled ? 'bg-luxury-accent text-luxury-bg' : 'bg-luxury-text text-luxury-bg'}`}>A</div>
-        <span className={`font-serif uppercase tracking-[0.3em] font-bold text-lg transition-colors ${isScrolled ? 'text-luxury-accent' : 'text-luxury-text'}`}>L'Aura</span>
+        <div className={`w-8 h-8 rounded-full flex items-center justify-center font-serif italic transition-colors ${isScrolled ? 'bg-luxury-accent text-luxury-bg' : 'bg-luxury-text text-luxury-bg'}`}>S</div>
+        <span className={`font-serif uppercase tracking-[0.3em] font-bold text-lg transition-colors ${isScrolled ? 'text-luxury-accent' : 'text-luxury-text'}`}>SOPHIE</span>
       </motion.div>
 
       <div className="hidden md:flex gap-10 text-[10px] uppercase tracking-widest font-semibold items-center">
@@ -175,9 +175,9 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-16 mb-20">
           <div className="col-span-1 md:col-span-1">
-            <h3 className="font-serif italic text-2xl mb-6 text-luxury-accent">L'Aura Distincte</h3>
+            <h3 className="font-serif italic text-2xl mb-6 text-luxury-accent">SOPHIE</h3>
             <p className="text-luxury-text-dim text-sm leading-relaxed mb-8 font-light">
-              L'art de la parfumerie française, inspiré par les jardins du monde et le raffinement intemporel.
+              L'art de la parfumerie française, inspiré par l'élégance et l'aspiration constante à l'exceptionnel.
             </p>
             <div className="flex gap-4">
               <Instagram size={18} className="text-luxury-text-dim hover:text-luxury-accent cursor-pointer transition" />
@@ -222,7 +222,7 @@ const Footer = () => {
 
         <div className="border-t border-white/5 pt-8 flex flex-col md:row justify-between items-center gap-6">
           <p className="text-[10px] text-luxury-text-dim uppercase tracking-widest font-light">
-            © 2026 L'AURA DISTINCTE. TOUS DROITS RÉSERVÉS.
+            © 2026 SOPHIE. TOUS DROITS RÉSERVÉS.
           </p>
           <div className="flex gap-8 text-[10px] text-luxury-text-dim uppercase tracking-widest font-light">
             <a href="#" className="hover:text-luxury-text transition">Mentions Légales</a>
